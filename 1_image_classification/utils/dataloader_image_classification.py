@@ -64,7 +64,7 @@ def make_datapath_list(phase="train"):
         データへのパスを格納したリスト
     """
 
-    rootpath = "./data/hymenoptera_data/"
+    rootpath = "/content/drive/My Drive/P-EGG/hymenoptera_data/"
     target_path = osp.join(rootpath+phase+'/**/*.jpg')
     print(target_path)
 
